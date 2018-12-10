@@ -23,15 +23,8 @@ public class NameScoreArray {
 					System.out.println(names[i]+":"+scores[i]);
 				}
 			}
-			
-		
 		}
-
-		
 		
 	}
-	public static void main(String[] args) {
-		NameScoreArray a = new NameScoreArray();
-		a.test();
-	}
+	
 }

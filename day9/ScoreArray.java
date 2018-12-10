@@ -8,10 +8,7 @@ public class ScoreArray {
 		for(int i=0;i<score.length;i++) {
 			score[i] = scanner.nextInt();
 		}
-		//int a = scanner.nextInt();
-		//int b = scanner.nextInt();
-		//int c = scanner.nextInt();
-		//int[] score = {a,b,c};
+
 		String res = "";
 		
 		for(int i=0;i<score.length;i++) {
@@ -23,9 +20,5 @@ public class ScoreArray {
 		}
 		System.out.println(res);
 	}
-	
-	public static void main(String[] args) {
-		ScoreArray sc = new ScoreArray();
-		sc.test();
-	}
+
 }

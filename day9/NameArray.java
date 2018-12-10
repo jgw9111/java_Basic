@@ -18,11 +18,4 @@ public class NameArray {
 		System.out.println(res);
 
 	}
-		
-	public static void main(String[] args) {
-		NameArray nameArray = new NameArray();
-		nameArray.test();
-		
-
-	}
 }

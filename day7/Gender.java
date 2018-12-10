@@ -10,13 +10,13 @@ public class Gender {
 		char ch = ssn.charAt(7);
 		String res = "";
 		
-		if(ch == 1 || ch == 3) {
+		if(ch == '1' || ch == '3') {
 			res = "남자";
-		}else if(ch == 2 || ch==4 ){
+		}else if(ch == '2' || ch== '4' ){
 			res = "여자";			
-		}else if(ch == 5 || ch == 6){
+		}else if(ch == '5' || ch == '6'){
 			res = "외국인";
-		}else{
+		}else {
 			res = "다시 입력하세요";
 		}
 		System.out.println(name +":"+ssn +":"+res);
